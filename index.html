@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form page</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child-1">
+        <img src="imgs/logo.png" alt="">
+      </div>
+      <div class="child-2">
+        <div class="child-2.2">
+            <h1>Register</h1>
+            <h2>It's completely free</h2>
+        </div>
+        <div class="form">
+            <label for="" >Name</label><br>
+            <input type="text" placeholder="Your full name" >
+        </div>
+        <div class="form">
+            <label for="">Username</label><br>
+            <input type="text" placeholder="Username" onkeyup="if (/[^|a-z0-9]+/g.test(this.value)) this.value = this.value.replace(/[^|a-z0-9]+/g,'')">
+        </div>
+        <div class="form">
+            <label for="">Email</label><br>
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="form">
+            <label for="">Password</label><br>
+            <input type="password" placeholder="password">
+        </div>
+        <div class="form">
+            <label for="">Confirm Password</label><br>
+            <input type="text" placeholder="Confirm Password">
+        </div>
+        <div class="form">
+            <input type="checkbox" placeholder="">
+            <label for="">Confirm to agreement</label>
+        </div>
+        <div class="form">
+            <button id="validate">Create account</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

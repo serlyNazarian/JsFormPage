@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/imgs/gradient.png); 
+} 
+
+.parent {
+    display: flex;
+    border: 1px solid;
+    padding: 10px;
+    width: 800px;
+    height: 700px;
+    box-shadow: 5px 10px #888888;
+}
+.child-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    background-color: #68D8D6;
+}
+
+.child-1 img {
+    height: 150px;
+    width: 150px;
+}
+
+.child-2 {
+    color: white;
+    width: 500px;
+    background-color: #1d3557;
+}
+.form {
+    padding: 10px;
+}
+
+.form input {
+    width:300px;
+}
+
+.form button {  
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+    background-color:#00509d ;
+}
